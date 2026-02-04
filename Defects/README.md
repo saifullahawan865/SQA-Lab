@@ -1,0 +1,1 @@
+﻿Purpose: Defect logs
