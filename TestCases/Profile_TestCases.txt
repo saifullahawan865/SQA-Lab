@@ -1,0 +1,24 @@
+Test Case ID: TC_PROFILE_001
+Title: Update profile with valid data
+Precondition: User is logged in
+Steps:
+1. Go to Profile page
+2. Edit name/phone
+3. Save
+Expected Result: Profile updated successfully
+
+Test Case ID: TC_PROFILE_002
+Title: Update profile with invalid phone
+Precondition: User is logged in
+Steps:
+1. Go to Profile
+2. Enter invalid phone (letters)
+3. Save
+Expected Result: Validation message shown, not saved
+
+Test Case ID: TC_PROFILE_003
+Title: Access profile without login
+Precondition: User is logged out
+Steps:
+1. Open Profile URL directly
+Expected Result: Redirected to login / access denied

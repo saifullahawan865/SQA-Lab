@@ -1,0 +1,26 @@
+Test Case ID: TC_SIGNUP_001
+Title: Signup with valid data
+Precondition: User is not registered
+Steps:
+1. Open signup page
+2. Enter valid name, email, password
+3. Click Sign up
+Expected Result: Account created and user redirected or notified
+
+Test Case ID: TC_SIGNUP_002
+Title: Signup with already registered email
+Precondition: Email already exists
+Steps:
+1. Open signup page
+2. Enter existing email + valid password
+3. Click Sign up
+Expected Result: Error shows email already exists
+
+Test Case ID: TC_SIGNUP_003
+Title: Signup with weak password
+Precondition: None
+Steps:
+1. Open signup page
+2. Enter valid name/email and weak password (e.g., 12345)
+3. Click Sign up
+Expected Result: Password strength validation shown
